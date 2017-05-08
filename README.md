@@ -1,5 +1,8 @@
 # NodeShop
 
+
+[![Windows Build][appveyor-image]][appveyor-url]
+
 Nodeshop is a Node.js powered E-Commerce system. Express is used for back-end framework, with Jade handling the view engine and Passport for user authentication. 
 
 Bootstrap is used as front-end framework because it's just plain great.
@@ -51,3 +54,6 @@ The checkout is moving towards something that may be usable quite soon so watch 
 Also planned is an admin area, which I am considering running as a seperate server. This would make it secure and easy to access from a development envrironment.
 
 Billy Topley
+
+[appveyor-image]: https://img.shields.io/appveyor/ci/richard-martens/nodeshop/master.svg?label=windows
+[appveyor-url]: https://ci.appveyor.com/project/richard-martens/nodeshop
